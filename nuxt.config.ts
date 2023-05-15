@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ["~/assets/css/global.scss", "~/assets/css/iconfont.css"],
   app: {
     head: {
-        title:"OPPO官网-Nuxt3",
+      title: "OPPO官网-Nuxt3",
       meta: [
         {
           name: "description",
@@ -31,6 +31,7 @@ export default defineNuxtConfig({
     transpile: ["element-plus/es"],
   },
   modules: [
+    "@element-plus/nuxt",
     [
       "@pinia/nuxt",
       {
@@ -50,6 +51,6 @@ export default defineNuxtConfig({
         },
       },
     },
-    plugins:[ElementPlus()]
+    plugins: [ElementPlus()],
   },
 });
