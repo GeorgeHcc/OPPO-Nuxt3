@@ -1,0 +1,121 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "880404",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "8268337",
+      "name": "shopping cart",
+      "font_class": "shoppingcart",
+      "unicode": "e881",
+      "unicode_decimal": 59521
+    },
+    {
+      "icon_id": "11487977",
+      "name": "arrow-right",
+      "font_class": "arrow-right",
+      "unicode": "e743",
+      "unicode_decimal": 59203
+    },
+    {
+      "icon_id": "11487978",
+      "name": "arrow-left",
+      "font_class": "arrow-left",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "31543114",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "31543115",
+      "name": "驳回",
+      "font_class": "bohui",
+      "unicode": "e6d7",
+      "unicode_decimal": 59095
+    },
+    {
+      "icon_id": "31543116",
+      "name": "打印",
+      "font_class": "dayin",
+      "unicode": "e6d8",
+      "unicode_decimal": 59096
+    },
+    {
+      "icon_id": "31543117",
+      "name": "帮助",
+      "font_class": "bangzhu",
+      "unicode": "e6d9",
+      "unicode_decimal": 59097
+    },
+    {
+      "icon_id": "31543118",
+      "name": "查看",
+      "font_class": "chakan",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "31543126",
+      "name": "复制",
+      "font_class": "fuzhi",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "31543127",
+      "name": "附件",
+      "font_class": "fujian",
+      "unicode": "e6dc",
+      "unicode_decimal": 59100
+    },
+    {
+      "icon_id": "31543131",
+      "name": "日期",
+      "font_class": "riqi",
+      "unicode": "e6dd",
+      "unicode_decimal": 59101
+    },
+    {
+      "icon_id": "31543132",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
+      "icon_id": "31543134",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "31543136",
+      "name": "审批节点",
+      "font_class": "shenpijiedian",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    },
+    {
+      "icon_id": "31543144",
+      "name": "拍照",
+      "font_class": "paizhao",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    }
+  ]
+}
