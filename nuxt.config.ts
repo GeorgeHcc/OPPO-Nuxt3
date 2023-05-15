@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ["~/assets/css/global.scss", "~/assets/css/iconfont.css"],
   app: {
     head: {
-      title: "OPPO官网-Nuxt3",
+      title: "Nuxt3-OPPO",
       meta: [
         {"http-equiv":"Content-Security-Policy",content:"upgrade-insecure-requests"},
         //<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
