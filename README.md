@@ -4,3 +4,9 @@ Nuxt3仿OPPO官网
 ``` 
 pnpm install
 ```
+
+## run 
+
+```
+pnpm dev
+```
