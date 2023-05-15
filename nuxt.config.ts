@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     head: {
       title: "OPPO官网-Nuxt3",
       meta: [
+        {"http-equiv":"Content-Security-Policy",content:"upgrade-insecure-requests"},
+        //<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         {
           name: "description",
           content: "OPPO专区，官方正品，最新最全的OPPO手机产品以及配件在线抢购！",
