@@ -16,7 +16,7 @@
           <NuxtLink class="link" to="/intelligent">智能硬件</NuxtLink>
         </li>
         <li>
-          <NuxtLink class="link" to="/oppo-service">服务</NuxtLink>
+          <NuxtLink class="link" to="https://support.oppo.com/cn/" targrt="blank">服务</NuxtLink>
         </li>
       </ul>
       <Search class="content-right"></Search>
