@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     head: {
       title: "Nuxt3-OPPO",
       meta: [
-        {"http-equiv":"Content-Security-Policy",content:"upgrade-insecure-requests"},
+        //安全政策，需要ssl证书
+        // {"http-equiv":"Content-Security-Policy",content:"upgrade-insecure-requests"},
         //<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
         {
           name: "description",
