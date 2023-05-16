@@ -1,6 +1,6 @@
 <template>
-  <div class="grid-view-item">
-    <div class="item-img">
+    <div class="grid-view-item" @click="handleClick(productDetail.link)">
+    <div class="item-img"> 
       <img class="url" :src="productDetail.url" alt="" />
     </div>
     <div class="item-title">{{ productDetail.title }}</div>
@@ -40,6 +40,12 @@ defineProps({
     default: () => {},
   },
 });
+
+const handleClick = (link="") => {
+  if (process.client) {
+   window.open(link,"_blank")
+  }
+};
 </script>
 
 <style lang="scss" scoped>

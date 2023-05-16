@@ -4,12 +4,13 @@
     <grid-view
       :product-details="category.productDetailss"
       :category-url="category.url"
+      :firstLink="category.link"
     ></grid-view>
   </div>
 </template>
 
 <script lang="ts" setup>
-import type { ICategory } from "@/store/home";
+
 interface Props {
   category?: ICategory;
 }

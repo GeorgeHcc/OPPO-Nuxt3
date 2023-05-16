@@ -1,9 +1,12 @@
 <template>
   <div class="grid-view">
     <!-- 第一个item -->
-    <div class="view-item first" v-if="firstItemIsTwoCol">
+    <!-- <a :href="firstLink" target="_blank"> -->
+    <div class="view-item first" v-if="firstItemIsTwoCol" @click="handleClick(firstLink)">
       <img :src="categoryUrl" alt="OPPO" />
     </div>
+
+    <!-- </a> -->
     <!-- 非第一个item -->
     <template v-for="(item, index) in productDetails" :key="item">
       <!-- 以后复用了需改成 slot -->
@@ -15,21 +18,24 @@
 </template>
 
 <script lang="ts" setup>
-
 interface Props {
+  firstLink: string;
   productDetails?: IProductDetail[];
   categoryUrl?: string; // 分类的图片
   firstItemIsTwoCol?: boolean; // 第一个item，占用两列
 }
 
-// not work
-// const { productDetails = [], firstItemIsTwoCol = true } = defineProps<Props>();
-
-// ok
 const props = withDefaults(defineProps<Props>(), {
   firstItemIsTwoCol: true,
   productDetails: () => [],
+  firstLink: "",
 });
+
+const handleClick = (link: string) => {
+  if (process.client) {
+   window.open(link,"_blank")
+  }
+};
 </script>
 
 <style lang="scss" scoped>

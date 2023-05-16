@@ -7,7 +7,9 @@
       @change="handleChange"
     >
       <el-carousel-item v-for="item in banners" :key="item">
-        <img class="pic-str" :src="item.picStr" alt="OPPO" />
+        <NuxtLink :to="item.link" target="_blank">
+          <img class="pic-str" :src="item.picStr" alt="OPPO" />
+        </NuxtLink>
       </el-carousel-item>
     </el-carousel>
 
