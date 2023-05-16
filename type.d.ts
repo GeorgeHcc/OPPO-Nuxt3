@@ -8,6 +8,7 @@ declare interface IBanner {
   id?: number;
   picStr?: string;
   link?: string;
+  type?: string;
 }
 declare interface IPriceInfo {
   prefix?: string;
@@ -24,12 +25,14 @@ declare interface IProductDetail {
   url?: string;
   priceInfo?: IPriceInfo;
   activityList?: IActivity[];
+  link?: string;
 }
 declare interface ICategory {
   id?: number;
   picStr?: string;
   url?: string;
   title?: string;
+  link?: string;
   type?: string;
   productDetailss?: IProductDetail[];
 }
