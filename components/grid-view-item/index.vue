@@ -96,7 +96,7 @@ const handleClick = (link="") => {
       color: $priceColor;
       font-size: 13px;
     }
-
+       
     .price {
       color: $priceColor;
       font-size: 20px;
