@@ -1,2 +1,4 @@
 *.html linguist-language=javascript
 *.css linguist-language=javascript
+*.vue linguist-language=vue
+*.ts linguist-language=typescript
